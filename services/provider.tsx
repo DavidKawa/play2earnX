@@ -14,9 +14,7 @@ const demoAppInfo = {
 }
 
 const getSiweMessageOptions: GetSiweMessageOptions = () => ({
-  statement: `
-  Once you're signed in, you'll be able to access all of our dApp's features.
-  Thank you for partnering with CrowdFunding!`,
+  statement: `Once you're signed in, you'll be able to access all of our dApp's features.Thank you for partnering with CrowdFunding!`,
 })
 
 export function Providers({ children, pageProps }: {
@@ -34,8 +32,8 @@ export function Providers({ children, pageProps }: {
       <SessionProvider refetchInterval={0} session={pageProps.session}>
         <WagmiProvider config={config}>
           <QueryClientProvider client={queryClient}>
-            <RainbowKitSiweNextAuthProvider enabled={authEnabled} getSiweMessageOptions={getSiweMessageOptions}>
-              <RainbowKitProvider theme={darkTheme()} appInfo={demoAppInfo}>
+          <RainbowKitSiweNextAuthProvider enabled={authEnabled} getSiweMessageOptions={getSiweMessageOptions}>
+          <RainbowKitProvider theme={darkTheme()} appInfo={demoAppInfo}>
                 {mounted && children}
               </RainbowKitProvider>
             </RainbowKitSiweNextAuthProvider>
