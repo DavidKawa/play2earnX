@@ -1,7 +1,8 @@
 # Play2EarnX Project Documentation
 
-LINE ID: davidkawa1991
-Mail:    kawasaki19910113@gmail.com
+## Information
+- LINE ID:  davidkawa1991
+- EMAIL:    kawasaki19910113@gmail.com
 
 <!-- Read the full tutorial here: **[>> How to build a Decentralized Game Platform with Next.js, TypeScript, Tailwind CSS, and Solidity](https://daltonic.github.io)** -->
 
