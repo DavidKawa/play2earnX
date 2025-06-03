@@ -1,6 +1,6 @@
 # Play2EarnX Project Documentation
 ## System Requirements
-* cpu with 4 cores
+* cpu with 4+ cores
 * 16GB RAM
 * 10MBit/s internet service
 
