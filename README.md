@@ -11,7 +11,7 @@ The project revolves around `Play2EarnX.sol`, a Solidity-written Ethereum smart 
 The core of the contract is defined by four primary structures: `GameStruct`, `PlayerStruct`, `InvitationStruct`, and `ScoreStruct`, representing a game, a player, an invitation, and a score, respectively.
 
 ## Key Features
-
+FDSASDF
 - `createGame`: Allows a user to create a new game.
 - `deleteGame`: Allows the game owner to delete a game.
 - `invitePlayer`: Allows a user to invite another player to a game.
